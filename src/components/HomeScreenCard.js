@@ -3,7 +3,7 @@
 import {View, Text, StyleSheet, TouchableOpacity} from 'react-native';
 import React from 'react';
 import {width, COLOURS} from '../constants';
-
+//card component 
 const Card = ({
   title,
   icon: Icon,
@@ -62,7 +62,7 @@ const Card = ({
 };
 
 export default Card;
-
+//styles types
 const styles = StyleSheet.create({
   section: {
     gap: 10,
