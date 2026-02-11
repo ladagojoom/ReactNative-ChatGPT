@@ -3,7 +3,7 @@ import {View, Text, StyleSheet, SafeAreaView, ScrollView} from 'react-native';
 import React from 'react';
 import {COLOURS, height, Icons, ROUTES} from '../constants';
 import {HomeScreenCard} from '../components';
-
+//This is home screen component that come out as soon as load.
 const HomeScreen = ({navigation}) => {
   const {Entypo, Feather, MaterialIcons} = Icons;
   return (
@@ -50,7 +50,7 @@ const HomeScreen = ({navigation}) => {
     </SafeAreaView>
   );
 };
-
+//style for homescreen
 const styles = StyleSheet.create({
   screen: {
     backgroundColor: COLOURS.PRIMARY,
